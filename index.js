@@ -19,6 +19,30 @@ app.get("/", async (req, res) => {
 app.get("/jquery.min.js", async (req, res) => {
   res.sendFile(path.join(__dirname, "./public/jquery.min.js"));
 });
+app.get("/jscex-async-powerpack.min.js", async (req, res) => {
+  res.sendFile(path.join(__dirname, "./public/jscex-async-powerpack.min.js"));
+});
+app.get("/jscex-parser.js", async (req, res) => {
+  res.sendFile(path.join(__dirname, "./public/jscex-parser.js"));
+});
+app.get("/jscex.min.js", async (req, res) => {
+  res.sendFile(path.join(__dirname, "./public/jscex.min.js"));
+});
+app.get("/jscex-builderbase.min.js", async (req, res) => {
+  res.sendFile(path.join(__dirname, "./public/jscex-builderbase.min.js"));
+});
+app.get("/functions.js", async (req, res) => {
+  res.sendFile(path.join(__dirname, "./public/functions.js"));
+});
+app.get("/love.js", async (req, res) => {
+  res.sendFile(path.join(__dirname, "./public/love.js"));
+});
+app.get("/jscex-jit.js", async (req, res) => {
+  res.sendFile(path.join(__dirname, "./public/jscex-jit.js"));
+});
+app.get("/jscex-parser.js", async (req, res) => {
+  res.sendFile(path.join(__dirname, "./public/jscex-parser.js"));
+});
 
 // 更新计数
 app.post("/api/count", async (req, res) => {
