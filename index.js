@@ -22,8 +22,8 @@ app.get("/jquery.min.js", async (req, res) => {
 app.get("/jscex-async-powerpack.min.js", async (req, res) => {
   res.sendFile(path.join(__dirname, "./public/jscex-async-powerpack.min.js"));
 });
-app.get("/jscex-parser.js", async (req, res) => {
-  res.sendFile(path.join(__dirname, "./public/jscex-parser.js"));
+app.get("/jscex-async.min.js", async (req, res) => {
+  res.sendFile(path.join(__dirname, "./public/jscex-async.min.js"));
 });
 app.get("/jscex.min.js", async (req, res) => {
   res.sendFile(path.join(__dirname, "./public/jscex.min.js"));
